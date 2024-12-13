@@ -18,6 +18,7 @@ import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPEvent.RequestContext;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPEvent.RequestContext.Http;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPResponse;
+import io.github.vitalijr2.logging.mock.MockLoggerExtension;
 import java.util.Map;
 import org.json.JSONArray;
 import org.junit.jupiter.api.AfterEach;
@@ -34,7 +35,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@ExtendWith(MockitoExtension.class)
+@ExtendWith({MockitoExtension.class, MockLoggerExtension.class})
 @Tag("fast")
 class EchoHandlerTest {
 
@@ -49,11 +50,6 @@ class EchoHandlerTest {
 
   private Logger logger;
   private RequestHandler<APIGatewayV2HTTPEvent, APIGatewayV2HTTPResponse> handler;
-
-  @AfterEach
-  void tearDown() {
-    clearInvocations(logger);
-  }
 
   @BeforeEach
   void setUp() {
