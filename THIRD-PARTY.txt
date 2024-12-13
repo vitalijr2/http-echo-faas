@@ -1,0 +1,10 @@
+
+Lists of 8 third-party dependencies.
+     (Apache License version 2.0) AWS Lambda Java Core Library (com.amazonaws:aws-lambda-java-core:1.2.3 - https://aws.amazon.com/lambda/)
+     (Apache License version 2.0) AWS Lambda Java Events Library (com.amazonaws:aws-lambda-java-events:3.14.0 - https://aws.amazon.com/lambda/)
+     (Apache License version 2.0) SLF4J for AWS Lambda : Core (io.github.vitalijr2.aws-lambda:aws-lambda-slf4j-core:1.1.4 - https://github.com/vitalijr2/aws-lambda-slf4j/aws-lambda-slf4j-core)
+     (Apache License version 2.0) SLF4J for AWS Lambda : Logger (io.github.vitalijr2.aws-lambda:aws-lambda-slf4j-logger:1.1.4 - https://github.com/vitalijr2/aws-lambda-slf4j/aws-lambda-slf4j-logger)
+     (Apache License version 2.0) Joda-Time (joda-time:joda-time:2.10.8 - https://www.joda.org/joda-time/)
+     (Apache License version 2.0) JetBrains Java Annotations (org.jetbrains:annotations:24.1.0 - https://github.com/JetBrains/java-annotations)
+     (Public Domain) JSON in Java (org.json:json:20240303 - https://github.com/douglascrockford/JSON-java)
+     (MIT License) SLF4J API Module (org.slf4j:slf4j-api:2.0.16 - http://www.slf4j.org)
